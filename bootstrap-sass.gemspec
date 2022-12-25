@@ -3,7 +3,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'bootstrap-sass/version'
 
 Gem::Specification.new do |s|
-  s.name     = 'bootstrap-sass'
+  s.name     = 'bootstrap-sass-mokum'
   s.version  = Bootstrap::VERSION
   s.authors  = ['Thomas McDonald']
   s.email    = 'tom@conceptcoding.co.uk'
@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.homepage = 'https://github.com/twbs/bootstrap-sass'
   s.license  = 'MIT'
 
-  s.add_runtime_dependency 'sassc', '>= 2.0.0'
+  s.add_runtime_dependency 'sassc-mokum', '>= 2.4.1'
   s.add_runtime_dependency 'autoprefixer-rails', '>= 5.2.1'
 
   # Testing dependencies
