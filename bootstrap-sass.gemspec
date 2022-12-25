@@ -3,7 +3,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'bootstrap-sass/version'
 
 Gem::Specification.new do |s|
-  s.name     = 'bootstrap-sass-mokum'
+  s.name     = 'bootstrap-sass'
   s.version  = Bootstrap::VERSION
   s.authors  = ['Thomas McDonald']
   s.email    = 'tom@conceptcoding.co.uk'
@@ -21,7 +21,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'capybara', '~> 3.6'
   s.add_development_dependency 'poltergeist'
   # Dummy Rails app dependencies
-  s.add_development_dependency 'sassc-rails', '>= 2.0.0'
   s.add_development_dependency 'actionpack', '>= 4.1.5'
   s.add_development_dependency 'activesupport', '>= 4.1.5'
   s.add_development_dependency 'json', '>= 1.8.1'
